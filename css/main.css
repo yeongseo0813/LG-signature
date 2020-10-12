@@ -1,0 +1,86 @@
+@charset "utf-8";
+html, body {
+    height: 100%;
+    overflow-y: hidden
+}
+
+body {
+    position: relative;
+    min-width: 1200px;
+    font-family: "Dotum", "Arial", sans-serif;
+    font-size: 12px;
+    color: #333;
+    background: white
+}
+
+/*.posNum {*/
+/*    position: fixed;*/
+/*    left: 50%;*/
+/*    top: 50%;*/
+/*    width: 300px;*/
+/*    height: 50px;*/
+/*    margin: -25px 0 0 -150px;*/
+/*    background: #111;*/
+/*    color: #fff;*/
+/*    font-size: 20px;*/
+/*    font-weight: bold;*/
+/*    text-align: center;*/
+/*    line-height: 50px;*/
+/*    z-index: 9999*/
+/*}*/
+
+.scrollBox {
+    min-width: 1200px;
+    height: 100%;
+    position: relative
+}
+
+.scrollBox .wrap {
+    min-width: 1200px;
+    position: relative;
+    overflow: hidden
+}
+
+.scrollBox .wrap > div {
+    position: relative
+}
+
+.scrollBox .wrap .objs > li {
+    position: absolute;
+    left: 50%
+}
+
+#header {}
+
+
+#scene01 {
+    height: 6848px;
+    background: url("../image/lg-promotion.jpg");
+}
+
+/*#scene02 {*/
+/*    height: 1014px;*/
+/*    background: orangered;*/
+/*}*/
+
+/*#scene03 {*/
+/*    height: 1014px;*/
+/*    background: yellow;*/
+/*}*/
+
+/*#scene04 {*/
+/*    height: 1014px;*/
+/*    background: green;*/
+/*}*/
+
+/*#scene05 {*/
+/*    height: 1014px;*/
+/*    background: dodgerblue;*/
+/*}*/
+
+
+/*#footer {*/
+/*    height: 398px;*/
+/*    background: #0f0f0f;*/
+/*    position: relative*/
+/*}*/
